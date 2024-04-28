@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// increment/decrement hook
 const useCounter = () => {
   const [count, setCount] = useState(0);
 
